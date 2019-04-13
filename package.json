@@ -6,13 +6,13 @@
       "npm": "6.4.1"
   },
   "scripts": {
-    "build": "bsb -make-world",
-    "start": "bsb -make-world -w",
-    "clean": "bsb -clean-world",
+    "build": "node_modules/.bin/bsb -make-world",
+    "start": "node_modules/.bin/bsb -make-world -w",
+    "clean": "node_modules/.bin/bsb -clean-world",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack -w",
-    "webpack:production": "NODE_ENV=production webpack",
-    "server": "webpack-dev-server"
+    "webpack": "node_modules/.bin/webpack -w",
+    "webpack:production": "NODE_ENV=production node_modules/.bin/webpack",
+    "server": "node_modules/.bin/webpack-dev-server"
   },
   "keywords": [
     "BuckleScript"
