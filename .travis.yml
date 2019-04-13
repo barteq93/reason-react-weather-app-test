@@ -11,6 +11,7 @@ deploy:
         secure: RoKTQmxZW8X+WkaU4zi9KnNHEBd4n+ULM2FR9InMQk7chSOFBWAZygo0o+XHtvB1vaytw8fjGmaaz45ymMzVoKtfMK4BcVYcfNbHbOTF2cHGvMjv7vEx8lscD4Iz5otEcIaolZemV6zY9vjvV9z3N6TUvU+8kVh/ANEV869LRMEdSoT2+ideYtq0hkNbh+8J3oI0tKSRN5Lm4ACufhEytSP6GxDrjGzxZicUNg61s9G9R9j4HEZuwkJC17Nua0heSQ4Dv0L91i2YkF+fStn4QcxC4nxnmRrCPsTvyJduTXDyD0ObFwvOesSyffIpmslENri3WsgjAuuCslvQPA+L0C0o7EvpfSvEJ40cbqJ4zglSoJUQoVL5H4Q3138vN08m/n5y/qjM+pwWF0JPtCw4sQcDmiQYgL0JMOPZxZQTvrobJ5WaZR34/4kPvzlskGF7d4UKBnACelnPeGTAwu5sDLV6PP+RpzUz+c9KA8kOvQhLk/V/6HFEjt9liDuf+Ta4uXqdpOkYpeFUXuB3l+sOYkdYkWVHNe76nNluV41fu2BRsRykyoVjrMP0mtKjQWNZgIEdDjvcvt48VIr48TMyS5NuwQdecCO9p7M1jqOl2gZUGA2YCM+lAqfA2pZGETSINqSPM4OUvi3bpadkpXh9L716/6Mu4PfO05rOZN2aSe4=
     bucket: reason-react-weather-app
     skip_cleanup: true
+    region: eu-central-1
     local-dir: build
     acl: public_read
     on:
